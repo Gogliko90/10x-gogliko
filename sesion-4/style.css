@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    background-color: #611ECB;
+
+}
+table{
+    width: 1000px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    border-collapse: collapse;
+    overflow: hidden;
+}
+
+.star-container{
+    display: flex;
+    justify-content: center;
+}
+th{
+    background-color: #F5F5F5;
+    padding: 13px 0;
+}
+tr{
+    text-align: center;
+    border-color: #EEE3FF;
+    border-top: 1px solid #611ECB;
+
+}
+td{
+    padding: 20px;
+}
+.star{
+    color: blueviolet;
+
+}
+tr:hover{
+    background-color: #e1cffe;
+}
